@@ -12,20 +12,6 @@
 }
 ```
 
-### Environment setup
-
-We recommend you create a conda environment as follows:
-
-```bash
-conda env create -f environment.yml
-```
-
-and activate it with
-
-```bash
-conda activate sodaverse
-```
-
 ## GenResCoh
 
 You can load the dataset used to train the ECoh models, GenResCoh from the [HuggingFace hub](https://huggingface.co/datasets/Johndfm/genrescoh) as the following:
