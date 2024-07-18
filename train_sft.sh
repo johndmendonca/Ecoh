@@ -1,0 +1,20 @@
+python train_sft.py \
+	--model_name_or_path  Qwen/Qwen1.5-4B-Chat \
+	--per_device_train_batch_size 8 \
+	--per_device_eval_batch_size 4 \
+	--gradient_accumulation_steps 4 \
+	--learning_rate 1e-4 \
+	--num_train_epochs 3.0 \
+	--save_total_limit 2 \
+	--load_best_model_at_end \
+	--evaluation_strategy steps \
+	--eval_steps 5000 \
+	--save_steps 5000 \
+	--save_strategy steps \
+	--train_file instruct_ml_train.csv \
+	--validation_file instruct_ml_dev.csv \
+	--test_file instruct_ml_test.csv \
+	--load_best_model_at_end True \
+  --output_dir experiments/sft/ml/Qwen1.5-4B-Chat \
+	--train True \
+	--wandb True \
