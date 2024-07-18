@@ -1,5 +1,16 @@
-# ECoh: Turn-level Coherence Evaluation for Multilingual Dialogues
+# Official repository for SIGDIAL [paper](https://arxiv.org/abs/2407.11660): *"ECoh: Turn-level Coherence Evaluation for Multilingual Dialogues"*
 
+```
+@misc{mendonça2024ecoh,
+      title={ECoh: Turn-level Coherence Evaluation for Multilingual Dialogues}, 
+      author={John Mendonça and Isabel Trancoso and Alon Lavie},
+      year={2024},
+      eprint={2407.11660},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2407.11660}, 
+}
+```
 
 ### Environment setup
 
