@@ -1,15 +1,27 @@
-# Official repository for SIGDIAL [paper](https://arxiv.org/abs/2407.11660): *"ECoh: Turn-level Coherence Evaluation for Multilingual Dialogues"*
+# Official repository for SIGDIAL [paper]([https://arxiv.org/abs/2407.11660](https://aclanthology.org/2024.sigdial-1.44/)): *"ECoh: Turn-level Coherence Evaluation for Multilingual Dialogues"*
 
 ```
-@misc{mendonça2024ecoh,
-      title={ECoh: Turn-level Coherence Evaluation for Multilingual Dialogues}, 
-      author={John Mendonça and Isabel Trancoso and Alon Lavie},
-      year={2024},
-      eprint={2407.11660},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2407.11660}, 
-}
+@inproceedings{mendonca-etal-2024-ecoh,
+    title = "{EC}oh: Turn-level Coherence Evaluation for Multilingual Dialogues",
+    author = "Mendonca, John  and
+      Trancoso, Isabel  and
+      Lavie, Alon",
+    editor = "Kawahara, Tatsuya  and
+      Demberg, Vera  and
+      Ultes, Stefan  and
+      Inoue, Koji  and
+      Mehri, Shikib  and
+      Howcroft, David  and
+      Komatani, Kazunori",
+    booktitle = "Proceedings of the 25th Annual Meeting of the Special Interest Group on Discourse and Dialogue",
+    month = sep,
+    year = "2024",
+    address = "Kyoto, Japan",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.sigdial-1.44",
+    pages = "516--532",
+    }
+
 ```
 
 ## GenResCoh
